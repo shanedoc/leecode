@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
-	r := problems.LongestPalindrome("aacabdkacaa")
+	p := []int{1, 0, -1, 0, -2, 2}
+	r := problems.FourSum(p, 0)
 	fmt.Println(r)
 }
